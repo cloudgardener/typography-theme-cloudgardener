@@ -2,9 +2,9 @@ import gray from "gray-percentage"
 
 const theme = {
   title: "Cloud Gardener",
-  baseFontSize: "17px",
-  baseLineHeight: 1.53,
-  scale: 2.35,
+  baseFontSize: "18px",
+  baseLineHeight: 1.50,
+  scale: 2.25,
   googleFonts: [
     {
       name: "Source Sans Pro",
@@ -40,13 +40,14 @@ const theme = {
       color: "#038252",
     },
     blockquote: {
-      ...scale(1 / 4),
+      ...adjustFontSizeTo(options.baseFontSize),
       borderLeft: `${rhythm(1 / 6)} solid`,
       borderColor: gray(93),
       paddingTop: rhythm(1 / 3),
       paddingBottom: rhythm(1 / 3),
       paddingLeft: rhythm(2 / 3),
       paddingRight: rhythm(2 / 3),
+      fontStyle: "italic",
     },
     "blockquote > :last-child": {
       marginBottom: 0,
