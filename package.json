@@ -1,7 +1,7 @@
 {
   "name": "@cloudgardener/typography-theme-cloudgardener",
   "description": "A theme for Typography.js, used at https://cloudgardener.dev/",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "author": "Niko Virtala <niko.virtala@gmail.com>",
   "main": "./dist/index.js",
   "keywords": [

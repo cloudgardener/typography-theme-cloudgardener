@@ -40,14 +40,13 @@ const theme = {
       color: "#038252",
     },
     blockquote: {
-      ...adjustFontSizeTo(options.baseFontSize),
+      fontStyle: "italic",
       borderLeft: `${rhythm(1 / 6)} solid`,
       borderColor: gray(93),
       paddingTop: rhythm(1 / 3),
       paddingBottom: rhythm(1 / 3),
       paddingLeft: rhythm(2 / 3),
       paddingRight: rhythm(2 / 3),
-      fontStyle: "italic",
     },
     "blockquote > :last-child": {
       marginBottom: 0,
