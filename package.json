@@ -1,0 +1,34 @@
+{
+  "name": "@cloudgardener/typography-theme-cloudgardener",
+  "description": "A theme for Typography.js, used at https://cloudgardener.dev/",
+  "version": "1.0.0",
+  "author": "Niko Virtala <niko.virtala@gmail.com>",
+  "main": "./dist/index.js",
+  "keywords": [
+    "css",
+    "typography",
+    "typography-theme"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/cloudgardener/typography-theme-cloudgardener",
+  "bugs": {
+    "url": "https://github.com/cloudgardener/typography-theme-cloudgardener/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cloudgardener/typography-theme-cloudgardener.git"
+  },
+  "scripts": {
+    "build": "babel src --out-dir dist/",
+    "lint": "eslint --ext .js,.jsx --ignore-path .gitignore .",
+    "watch": "babel -w src --out-dir dist/"
+  },
+  "dependencies": {
+    "gray-percentage": "^2.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
