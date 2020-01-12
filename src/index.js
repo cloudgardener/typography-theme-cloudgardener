@@ -21,7 +21,7 @@ const theme = {
   ],
   headerFontFamily: ["Source Sans Pro", "sans-serif"],
   bodyFontFamily: ["Source Serif Pro", "serif"],
-  codeFontFamily: ["Source Code Pro"],
+  codeFontFamily: ["Source Code Pro", "monospace"],
   bodyColor: "hsla(0,0%,0%,0.8)",
   headerWeight: 700,
   bodyWeight: 400,
